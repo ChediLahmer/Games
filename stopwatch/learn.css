@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+#stopwatch {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: grey;
+  width: 600px;
+  height:200px;
+  border-radius: 5%;
+  margin: 0 auto;
+}
+
+button {
+  margin-right: 20px;
+  width :100px;
+  height:50px;
+  border-radius: 10%;
+  border: 2px solid green;
+}
+#clock {
+  color: coral;
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+}
